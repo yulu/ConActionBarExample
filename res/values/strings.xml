@@ -4,5 +4,7 @@
     <string name="app_name">ConActionBarExample</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_refresh">Refresh</string>
 
 </resources>

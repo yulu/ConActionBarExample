@@ -1,16 +1,24 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
-
+	<EditText 
+    	android:id="@+id/searchfield"
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:inputType="textFilter" 
+    	android:focusable="true" 
+    	android:focusableInTouchMode="true"
+    	android:showAsAction="always">
+	</EditText> 
+	
     <item
-        android:id="@+id/menu_settings"
+        android:id="@+id/menu_search"
         android:orderInCategory="100"
         android:showAsAction="always"
-        android:title="@string/menu_settings"/>
+        android:title="@string/menu_search"/>
     
     <item
         android:id="@+id/menu_load"
-        android:icon="@drawable/ic_launcher"
         android:orderInCategory="200"
         android:showAsAction="always"
-        android:title="loads"/>
+        android:title="@string/menu_refresh"/>
 
 </menu>
